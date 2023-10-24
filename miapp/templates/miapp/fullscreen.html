@@ -1,0 +1,26 @@
+
+
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" type="text/css" href="{% static 'miapp/css/bootstrap.min.css' %}"/>
+
+<link rel="stylesheet" type="text/css" href="{% static 'miapp/css/fullscreen.css' %}"/>
+
+<head>
+   <title>comunicado{{comunicado.id}}</title>
+</head>
+
+<body>
+    <img src="{% static 'miapp/Logo_UTFSM.png' %}" class="logo" alt="Logo" width="200px">
+    <div id="contenedor">
+        <h1 id="titulo">{{ comunicado.titulo }}</h1>
+        <p id="texto">{{ comunicado.detalle }}</p>
+    </div>
+    
+</body>
+
+
+</html>
+

@@ -1,0 +1,31 @@
+nav{
+    padding: auto;
+    border: 5px solid transparent;
+    
+    margin-bottom: 50px;
+    background-color: #3b2cd8;
+}
+.card{
+    height: 350px;
+    border: 2px solid transparent;
+    border-color: rgb(9, 0, 73);
+    background-color: #bdb9e6;
+}
+
+.bg-body-tertiary {
+     background-color: rgb(168, 200, 255) !important;
+    }
+
+
+#Seguir{
+    font-size: 50%;
+    position: absolute;
+    bottom: 10px; 
+}
+#dc{
+    font-size: 70%;
+}
+
+body{
+    background: linear-gradient(0.45turn, rgb(201, 221, 255), #1e4f9e, #01077c);
+}
